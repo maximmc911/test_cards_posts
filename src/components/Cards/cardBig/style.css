@@ -1,0 +1,62 @@
+.cardBig {
+    width: 1100px;
+    border-radius: var(--BRadius);
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.cardBig .img {
+    width: 100%;
+    border-radius: var(--BRadius) var(--BRadius) 0 0;
+}
+
+.cardBig .content {
+    padding: 24px 24px;
+}
+
+.cardBig .title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.cardBig .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.cardBig .rating {
+    display: flex;
+
+}
+
+.cardBig .rating_dislike {
+    display: flex;
+}
+
+.cardBig .rating_like {
+    display: flex;
+    gap: 15px;
+
+}
+
+.cardBig p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.cardBig .text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 15px;
+
+}

@@ -1,0 +1,62 @@
+
+input {
+    max-width: 100%;
+    width: 1100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 8px 14px 8px 64px;
+    border-radius: var(--BRadius);
+    border: 1px solid rgba(187, 212, 237, 0.32)
+    
+}
+.search_place{
+    margin-top: 20px;
+    position: absolute;
+    top: 150;
+    width: 1100px;
+    max-width: 100%;
+    z-index: 20;
+    background: rgb(179, 116, 211);
+  /*   height: 350px; */
+    opacity: 0.9;
+    border-radius: var(--BRadius);
+}
+    .content h1{
+        margin-top: 10px;
+        margin-bottom: 50px;
+     text-align: center;
+      
+    }
+    .content p{
+        margin-top: 50px;
+        margin-bottom: 50px;
+     text-align: center;
+      font-size: 20px;
+    }
+    .cards h1{
+        text-align: start;
+        padding-left: 50px;
+        font-size: 20px;
+        margin-bottom: 10px;
+       
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .card img{
+        width: 100px;
+        border-radius: var(--BRadius);
+    }
+    .card{
+        margin: 0px 20px 0px 20px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(57, 57, 171);
+        padding: 5px;
+        border-radius: var(--BRadius);
+       
+    }

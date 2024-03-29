@@ -1,0 +1,65 @@
+.ItemContainer {
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back a {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: black;
+}
+
+.ItemContainer .rat {
+    display: flex;
+
+}
+
+.ItemContainer .rat_dislike {
+    display: flex;
+}
+
+.ItemContainer .rat_like {
+    display: flex;
+    gap: 15px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.content .img {
+
+    width: 850px;
+}
+
+.content h1 {
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+.content p {
+    max-width: 850px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}

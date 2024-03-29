@@ -1,0 +1,71 @@
+.like {
+  width: 28px;
+  height: 28px;
+  position: relative;
+
+}
+
+.like .hand {
+  position: absolute;
+  background-color: #2f8a13;
+  width: 16px;
+  height: 16px;
+  bottom: 0;
+  left: 0;
+  border-radius: 1.5px;
+}
+
+.like .hand:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: calc(100% + 0.7px);
+  height: 100%;
+  width: 6.2px;
+  background-color: #2f8a13;
+  border-radius: 1.5px;
+}
+
+.like .thumb {
+  position: absolute;
+  left: 0;
+  height: 85%;
+  bottom: 95%;
+  width: 6px;
+  background-color: #2f8a13;
+  border-radius: 1.9em 1.9em 0 0;
+  transform-origin: left bottom;
+  transform: rotate(30deg);
+}
+
+.like .fingers-2-3:before,
+.like .fingers-2-3:after,
+.like .fingers-4-5:before,
+.like .fingers-4-5:after {
+  content: "";
+  position: absolute;
+  background-color: #2f8a13;
+  left: 10%;
+  height: 30%;
+  border-radius: 7.6px;
+}
+
+.like .fingers-2-3:before {
+  bottom: 75%;
+  width: 115%;
+}
+
+.like .fingers-2-3:after {
+  bottom: 50%;
+  width: 110%;
+}
+
+.like .fingers-4-5:before {
+  bottom: 25%;
+  width: 105%;
+}
+
+.like .fingers-4-5:after {
+  bottom: 0;
+  width: 100%;
+}

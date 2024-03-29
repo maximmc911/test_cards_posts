@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.number,
+.numberActive {
+    margin: 5px;
+    color: blue;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.number {
+    background-color: beige;
+}
+
+.numberActive {
+    background-color: rgb(15, 9, 83);
+    color: azure;
+
+
+}
